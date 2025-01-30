@@ -5,7 +5,7 @@ function Header({name}) {
   return (
     <div className=" md:flex justify-between pl-8 ">
     <h1 className='text-3xl font-semibold pt-9 '>{name}<span className='h-2 block w-16 bg-yellow-500 rounded-3xl mt-5'></span></h1>
-    <div className=" bottom-0 left-0 fixed md:block bg-[rgba(48,48,50,0.9)] rounded-tl-2xl rounded-tr-2xl md:bg-[#2B2B2C] w-full  md:px-16 md:rounded-bl-3xl h-16 md:rounded-tr-3xl">
+    <div className=" bottom-0 left-0 flex fixed md:block bg-[rgba(48,48,50,0.9)] rounded-tl-2xl rounded-tr-2xl md:bg-[#2B2B2C] w-full  md:px-16 md:rounded-bl-3xl h-16 md:rounded-tr-3xl">
       <ul className='flex justify-center md:gap-16 gap-9 md:text-lg text-sm md:font-semibold py-4 px-8 '>
         <Link to="/"><li>About</li></Link>
         <Link to="/projects"><li>Projects</li></Link>
