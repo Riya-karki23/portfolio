@@ -14,7 +14,7 @@ function Resume() {
       </a>
       </div>
     <div className=" md:px-16 py-10 ">
-      <img src="public\assets\Resume(Riya karki).jpg" alt='resume'/>
+      <img src="/assets/Resume(Riya karki).jpg" alt='resume'/>
     </div>
     </div>
    
