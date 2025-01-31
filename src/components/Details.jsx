@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { MdOutlineMail } from "react-icons/md";
 import { IoIosPhonePortrait } from "react-icons/io";
 import { MdOutlineCalendarMonth } from "react-icons/md";
 import { HiOutlineLocationMarker } from "react-icons/hi";
+import { IoIosArrowDown } from "react-icons/io";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -10,18 +11,30 @@ import { Link } from 'react-router-dom';
 
 
 function Details() {
+
+const [btn, setBtn ] = useState(false);
+
+function toggleBtn(){
+  setBtn(!btn)
+
+}
+
+
   return (
     <div className='pb-4 md:bg-[#19191a] md:h-fit  md:w-[20%] md:rounded-4xl md:pt-[60px] flex items-center flex-col gap-4'>
-      <div className="px-3 py-2 border-2 border-[#353536]  md:border-b-2 bg-[#1e1e1f] w-[98%]  rounded-2xl md:border-b-neutral-700 md:p-4 flex md:flex-col items-center gap-5">
+      <div className=" relative px-3 py-2 md:border-0 border-2 border-[#353536] md:bg-[#19191a]   bg-[#1e1e1f] w-[98%]  rounded-2xl md:border-b-neutral-700 md:p-4 flex md:flex-col items-center gap-5">
         <div className="bg-[#2B2B2C] md:h-44 md:w-44 h-20 w-20 rounded-3xl flex justify-center items-center">
-        <img className='md:h-40 md:w-40 h-20 w-20 object-cover object-center rounded-3xl' src="assets\profile.jpg" alt='profile-pic' />
+        <img className='md:h-44 md:w-44 h-20 w-20 object-cover object-center rounded-3xl' src="assets\profile.jpg" alt='profile-pic' />
         </div>
         <div className="flex flex-col  gap-2 items-center">
         <h3 className='md:text-3xl text-lg font-semibold '>Riya karki</h3>
         <p className='bg-[#2B2B2C] text-sm md:px-6 px-2  py-1 rounded-md mb-4'>Web developer</p>
         </div>
+        <div className="absolute md:hidden top-0 right-0  text-amber-400 text-xs shadow shadow-gray-600 border-r-0 border-t-0 p-3 rounded-bl-2xl">
+        <IoIosArrowDown onClick={toggleBtn}/>
+        </div>
       </div>
-      <div className="hidden flex-wrap md:flex md:flex-col justify-between px-3 py-3 md:gap-5 border-b-2 border-b-neutral-700 pb-6">
+      <div className="hidden flex-wrap md:flex md:flex-col justify-between px-3 py-3 md:gap-5 border-y-1 border-y-neutral-700 pb-6">
       <div className="flex gap-4 items-center">
       <MdOutlineMail className='text-yellow-300 h-8 md:text-xl'/>
       <div className="">

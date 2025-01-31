@@ -1,11 +1,12 @@
 const data=[
     {
-    image:"/assets/projectImages/todo.png",
-    name:"Employee Management System",
-    description:"A simple to-do list in which we can create task and delete it.",
-    link:"https://to-do-list-beryl-pi-72.vercel.app/",
-    code:"https://github.com/Riya-karki23/to-do-list"
+        image: "/assets/projectImages/rideNow.png",
+        name: "RideNow-Ride Booking App",
+        description:"A responsive website built using React.js and nodejs. The website is designed to book rides online.",
+        link:"",
+        code:"https://github.com/Riya-karki23/UBER-CLONE"
     },
+   
     {
         image: "/assets/projectImages/Betheme.png",
         name: "Betheme Store Website",
