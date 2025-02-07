@@ -1,10 +1,10 @@
 const data=[
     {
-        image: "/assets/projectImages/rideNow.png",
-        name: "RideNow-Ride Booking App",
-        description:"A responsive website built using React.js and nodejs. The website is designed to book rides online.",
-        link:"",
-        code:"https://github.com/Riya-karki23/UBER-CLONE"
+        image: "/assets/projectImages/food-app.png",
+        name: "Food Delivery App",
+        description:"A responsive website built using React.js and nodejs with mongodb. The website is designed to order food online.",
+        link:"https://food-delivery-frontend-iq7b.onrender.com/",
+        code:"https://github.com/Riya-karki23/FOOD-DELIVERY-APP/tree/main"
     },
    
     {
