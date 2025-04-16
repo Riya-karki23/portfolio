@@ -24,7 +24,7 @@ function toggleBtn(){
     <div className='pb-4 md:bg-[#19191a] md:h-fit  md:w-[20%] md:rounded-4xl md:pt-[60px] flex items-center flex-col gap-4'>
       <div className=" relative px-3 py-2 md:border-0 border-2 border-[#353536] md:bg-[#19191a]   bg-[#1e1e1f] w-[98%]  rounded-2xl md:border-b-neutral-700 md:p-4 flex md:flex-col items-center gap-5">
         <div className="bg-[#2B2B2C] md:h-44 md:w-44 h-20 w-20 rounded-3xl flex justify-center items-center">
-        <img className='md:h-44 md:w-44 h-20 w-20 object-cover object-top  rounded-3xl ' src="assets/profile.jpg" alt='profile-pic' />
+        <img className='md:h-44 md:w-44 h-20 w-20 object-cover object-bottom  rounded-3xl ' src="assets/profile.jpg" alt='profile-pic' />
         </div>
         <div className="flex flex-col  gap-2 items-center">
         <h3 className='md:text-3xl text-lg font-semibold '>Riya karki</h3>
